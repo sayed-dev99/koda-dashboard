@@ -26,7 +26,7 @@ export default function App() {
       <header className="border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-5">
           <h1 className="text-2xl font-bold">
-            <span className="text-cyan-600">KODA</span> Dashboard
+            <span className="text-cyan-600">NexCart</span> Dashboard
           </h1>
 
           <span className="rounded-full bg-green-100 px-4 py-2 text-sm font-medium text-green-800">
@@ -101,7 +101,7 @@ export default function App() {
         </section>
 
         <footer className="text-center text-sm text-slate-500">
-          KODA Dashboard · React + Tailwind CSS
+          NexCart Dashboard · React + Tailwind CSS
         </footer>
       </main>
     </div>
