@@ -1,5 +1,9 @@
 import axios from "axios";
 
+const ApiLink = "https://e-commerce-api-3wara.vercel.app/"
+
+// const api = axios
+
 export const api = axios.create({
   baseURL: import.meta.env.VITE_API_BASE_URL || "",
   headers: {
