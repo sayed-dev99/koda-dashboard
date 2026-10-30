@@ -1,5 +1,8 @@
 import { createContext, useContext, useState, useEffect } from "react";
-import { login, me } from "../services/authService";
+import { login, me } from "../services/authService.js";
+
+
+
 
 const AuthContext = createContext();
 
@@ -56,8 +59,11 @@ export const AuthProvider = ({ children }) => {
     } catch (err) {
       return {
         success: false,
-        message: err.response?.data?.message || "Login failed",
-      };
+          message:
+            err.response?.data?.message ||
+            err.message ||
+            "Login failed",      
+          };
     } finally {
       setLoading(false);
     }
