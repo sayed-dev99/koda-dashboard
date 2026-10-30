@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const ApiLink = "https://e-commerce-api-3wara.vercel.app/"
+// const ApiLink = "https://e-commerce-api-3wara.vercel.app/"
 
 // const api = axios
 
